@@ -13,6 +13,3 @@ jobs:
 
       - name: Validate commits
         uses: webiny/action-conventional-commits@v1.2.0
-        with:
-          # You can customize allowed types if needed
-          types: 'feat,fix,docs,style,refactor,perf,test,chore,revert,build,ci'
